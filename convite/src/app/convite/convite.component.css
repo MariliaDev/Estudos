@@ -48,13 +48,13 @@ main .inner-text {
   width: 600px;
 }
 .about,
-.wedding-details {
+.event-details {
   width: 80%;
   margin: 2em auto;
   text-align: center;
 }
 .about h1,
-.wedding-details h1 {
+.event-details h1 {
   font-size: 36px;
   color: #757575;
   font-weight: 400;
@@ -129,10 +129,10 @@ a.btn-dark {
   letter-spacing: 2px;
   font-weight: 200;
 }
-.wedding-details {
+.event-details {
   background: #f2e0e0;
 }
-.wedding-details .details {
+.event-details .details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
