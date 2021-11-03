@@ -10,16 +10,16 @@ body {
   line-height: 1.5;
   width: 100%;
   font-family: "Oswald", sans-serif;
-  background-color: #f2e0e0;
+  background-color: #f6f6f6;
   overflow-x: hidden;
 }
 main {
-  background-image: url("http://portalcoroado.com.br/home/wp-content/uploads/2019/05/bazar2.png");
+  background-image: url("https://imgur.com/6sngrsC.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 180px;
 }
 a {
   text-decoration: none;
@@ -34,7 +34,7 @@ main .inner-text {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #ffffff;
+  color: #f6f6f6;
 }
 .inner-text h1 {
   font-size: 64px;
@@ -55,8 +55,9 @@ main .inner-text {
 }
 .about h1,
 .event-details h1 {
+  background-image: url("https://imgur.com/MNYzWc7.jpeg");
   font-size: 36px;
-  color: #757575;
+  color: #f6f6f6;
   font-weight: 400;
   padding: 15px 0;
   text-transform: capitalize;
@@ -95,12 +96,11 @@ a.btn-dark {
 }
 .btn-dark:focus,
 .btn-dark:hover {
-  background: #cccccc;
+  background: #f6f6f6;
   color: #000;
 }
 .invite-section {
-  background-image: url("https://upupa.com.br/wp-content/uploads/2019/05/sugestoes-de-nomes-para-bazar.jpg");
-  width: 100%;
+   width: 100%;
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -130,7 +130,10 @@ a.btn-dark {
   font-weight: 200;
 }
 .event-details {
-  background: #f2e0e0;
+
+  background: #f6f6f6;
+  background-image: url("https://imgur.com/MNYzWc7.jpeg");
+
 }
 .event-details .details {
   display: -webkit-box;
@@ -146,11 +149,13 @@ a.btn-dark {
   letter-spacing: 1.4px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  
 }
 .details h3 {
   padding-bottom: 10px;
   font-size: 30px;
   font-weight: 300;
+  
 }
 .details p {
   padding-bottom: 10px;
@@ -161,6 +166,7 @@ a.btn-dark {
   text-align: center;
   padding: 90px 0;
   text-transform: uppercase;
+  
 }
 .greeting h1 {
   font-size: 36px;
@@ -192,10 +198,10 @@ a.btn-light {
   color: #000;
 }
 footer {
-  background-color: #000;
+  background-color: #f6f6f6;
   text-align: center;
   padding: 20px 0;
-  color: #fff;
+  color: black ;
   z-index: 1;
 }
 footer h1 {
@@ -208,7 +214,7 @@ footer a {
   display: inline-block;
   padding-left: 10px;
   margin-left: 10px;
-  color: #fff;
+  color: #f6f6f6;
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
@@ -241,6 +247,19 @@ nav ul li a {
   letter-spacing: 1.5px;
   font-size: 14px;
 }
+
+img{
+  width:400px;
+  height: 450px;
+  background: linear-gradient( hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3) 15%, hsl(0 0% 0% / 1) );
+}
+
+
+h3, p{
+  background-color: #f6f6f6;
+  opacity: 0.75;
+}
+
 
 /*madia query*/
 @media (max-width: 1024px) {
